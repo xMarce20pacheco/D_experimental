@@ -21,7 +21,7 @@ celular + transporte + comestibles + gimnasio + alquiler + otros
 5800*10
 
 costos <-c(celular,transporte,comestibles,gimnasio,alquiler,otros)
-
+gastos <-c(celular,transporte,comestibles,gimnasio,alquiler,otros)
 #gastos
 
 barplot(gastos)
