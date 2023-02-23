@@ -20,13 +20,17 @@ celular + transporte + comestibles + gimnasio + alquiler + otros
 #gastos por año
 5800*10
 
-gastos <-c(celular,transporte,comestibles,gimnasio,alquiler,otros)
+costos <-c(celular,transporte,comestibles,gimnasio,alquiler,otros)
 
-gastos
+#gastos
 
 barplot(gastos)
 
 nomb <- c("celular", "transporte", "comestibles", "gimnasio", "alquiler", "otros")
+
+#tabla
+Gastos <- data.frame(nomb,costos)
+
 
 barplot(gastos, 
         col=c("pink", "red", "green", "blue", "pink", "blue"), 
@@ -35,6 +39,13 @@ barplot(gastos,
         ylab="costos en mxn",
         names.arg=c("celular", "transporte", "comestibles", "gimnasio", "alquiler", "otros"),
         )
+
+barplot(order(Gastos$costos,decreasing=TRUE), names.arg= Gastos$nomb, 
+        main="gastos universitarios", 
+        col=c("pink", "blue", "red", "brown", "orange", "white"),
+        ylim=c(0,2500), xlab="elementos",
+        ylab="costos en pesos mexicanos")
+
 
 
 
