@@ -29,5 +29,36 @@ prof.SOC <- subset(profepa, profepa$Operativo != max(profepa$Operativo))
 
 boxplot(prof.SOC$Operativo)
 
+#DROPBOX
+#INSTALAR LIBERIA
+ 
+library(repmis)
 
-# https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.cs
+conjunto <- source_data("https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.csv?dl=1")
+
+#revisar solo diametro 
+
+## mostrar como se comporta el diametro 
+
+boxplot(conjunto$Diametro)
+
+##diametro con especie
+## cambiar la especie a factor 
+conjunto$Especie <- as.factor(conjunto$Especie)
+
+## cambiar clase a factor
+conjunto$Clase <- as.factor(conjunto$Clase)
+
+##diametro en base (en funcion) de a la especie 
+
+
+boxplot(conjunto$Diametro ~ conjunto$Especie,
+        col="pink",
+        xlab="ESPECIE",
+        ylab="DIAMETRO",
+        main="BOSQUE")
+## ESPECIE EN BASE A LA ALTURA 
+
+boxplot(conjunto$Altura ~ conjunto$Especie,
+        col="blue", 
+        xlab="ESPECIE")
