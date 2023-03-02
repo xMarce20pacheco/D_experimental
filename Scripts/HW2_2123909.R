@@ -2,7 +2,7 @@
 #01/03/23
 #tarea 2
 
-CONJUNTO <- read.csv("Scripts/tarea.csv", header = TRUE )
+CONJUNTO <- read.csv("Scripts/tarea_2.csv", header = TRUE )
 
 #seleccion de datos 
 mean(CONJUNTO$ALTURA)
