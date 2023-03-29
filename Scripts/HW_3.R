@@ -4,7 +4,7 @@
 ## hw 3 
 #PROBLEMA 1 
 
-∑4(i=1)=xi
+
 #PROBLEMA 2 
 
 grupo_a <- c(80,90,90,100)
@@ -30,16 +30,15 @@ mean(calificaciones)
 GERMINACIONES <- read.csv("Scripts/GERMINACIONES.csv", header = TRUE )
 ##A podemos utilizar un grafico de barras 
 ##B media 
-mean(GERMINACIONES$GERMINACIONES)
+mean(GERMINACIONES$CAJAS.PETRI)
 ##C MEDIANA
-median(GERMINACIONES$GERMINACIONES)
+median(GERMINACIONES$CAJAS.PETRI)
 
 #PROBLEMA 6 
 set <- c(2, 2, 3, 6, 10)
 mean(set)
 median(set)
 # Crear la función getmode.
-getmoda <-function(v) {uniqv <- unique(v)uniqv[which.max(tabulate(match(v, uniqv)))]}
 
 ## + 5
 set_1 <- c(7, 7, 8, 11, 15)
