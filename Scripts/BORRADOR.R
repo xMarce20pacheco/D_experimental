@@ -1,8 +1,8 @@
 #ximena marcela pacheco gomez
 #01/03/23
 #tarea 2
-
-CONJUNTO <- read.csv("Scripts/tarea_2.csv", header = TRUE )
+setwd("C:/REPOSITORIO GIT/D_experimental/Scripts/")
+CONJUNTO <- read.csv("tarea_2.csv", header = TRUE )
 
 #seleccion de datos 
 mean(CONJUNTO$ALTURA)
@@ -98,10 +98,3 @@ sd(DBH_16$DIAMETRO)
 mean(DBH_media$DIAMETRO)
 sd(DBH_media$DIAMETRO)
 
-#lineas de comando en r 
-
-
-library(repmis)
-conjunto <- source_data("https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.csv?dl=1")
-
-head(conjunto)
