@@ -26,8 +26,8 @@ mean(calificaciones)
 ## RESPUESTA CORRECTA : A 
 
 #PROBLEMA 5 
-
-GERMINACIONES <- read.csv("Scripts/GERMINACIONES.csv", header = TRUE )
+setwd("C:/REPOSITORIO GIT/D_experimental/Scripts/")
+GERMINACIONES <- read.csv("GERMINACIONES.csv", header = TRUE )
 ##A podemos utilizar un grafico de barras 
 ##B media 
 mean(GERMINACIONES$CAJAS.PETRI)
