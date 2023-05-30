@@ -6,7 +6,7 @@ output:
 # D_experimental
 Repositorio para almacenar **código** y tareas durante el semestre EJ2023 de la clase diseño experimental
 #PRODUCTO INTEGRADOR DE APRENDIZAJE 
-
+#XIMENA MARCELA PACHECO GOMEZ 
 ## Contenido del curso 
 
 + 09/02/202: CREACION DEL REPOSITORIO D_experimental y primer script. 
@@ -28,5 +28,17 @@ Repositorio para almacenar **código** y tareas durante el semestre EJ2023 de la
 
 ## TAREA 3 
 + 16/03/2023: CALCULAMOS MEDIAS Y LA FUNCION "GETMOD" 
+
+## PRUEBA DE T
++ 27/04/2023: REALIZAMOS PRUEBAS DE T CON " shapiro.test", PRUEAS DE VARIANZAS "bartlett.test" Y "t.test"
+
+## ANOVA 
++ 18/05/2023: ANALISIS DE VARIANZA CON UN SOLO BLOQUE, SE UTLIZO LA FUNCION "diet.aov" 
+
+## PRUEBAS DE T 
++ 18/05/22: USAMOS PRUEBAS DE NORMALIDAD:  Shapiro-Wilk 
+
+## ANOVA EN PLANTAS PRE GERMINATIVAS
++ 25/05/2023: CON DATOS SE REALIZO UNA PRUEBA DE ANOVA DE UN FACTOR, PRUEBA DE TUCKEY 
 
 
