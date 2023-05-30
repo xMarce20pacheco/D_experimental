@@ -41,4 +41,6 @@ Repositorio para almacenar **código** y tareas durante el semestre EJ2023 de la
 ## ANOVA EN PLANTAS PRE GERMINATIVAS
 + 25/05/2023: CON DATOS SE REALIZO UNA PRUEBA DE ANOVA DE UN FACTOR, PRUEBA DE TUCKEY 
 
+![GRAFICO](https://github.com/xMarce20pacheco/D_experimental/assets/124898217/d41dd141-775d-4205-befe-d2af83b148ce)
+
 
