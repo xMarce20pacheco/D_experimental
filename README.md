@@ -12,3 +12,5 @@ Repositorio para almacenar **código** y tareas durante el semestre EJ2023 de la
 
 ## Primer contacto con la consola R 
 + 22/02/23 CALCULADORA CIENTFICA 
+
+## TAREA 1 
